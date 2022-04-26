@@ -1,0 +1,212 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'idroid';
+    src: url(fontes/idroid.otf) format('truetype');
+}
+
+body {
+    margin: 0px;
+    background-color: #E9E6C3;
+}
+
+/* Cabeçalho*/
+header {
+    background-image: linear-gradient(to bottom, #398a3e, #275f2b, #122e14);
+    margin: 0px;
+    padding: 0px;
+}
+
+header > h1 {
+    color: rgb(243, 237, 237);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    text-shadow: 1px 2px 3px black;
+    margin: 0px;
+    padding: 15px;
+}
+
+header > p {
+    color: rgb(243, 237, 237);
+    text-align: center;
+    text-shadow: 1px 1px 2px black;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 400px;
+    margin: auto;
+    padding: 15px;
+}
+
+nav {
+    margin-left: auto;
+    max-width: auto;
+    margin-left: 10px;
+}
+
+.menu {
+    padding-top: 12px;
+    margin-bottom: 5px;
+    height: 30px;
+    display: inline-block;
+}
+
+.menu > a {
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px 10px 0px 10px;
+}
+
+.menu:hover {
+    background-color: #275f2b;
+    border-radius: 8px;
+}
+
+/*Corpo*/
+
+main {
+    max-width: 850px;
+    margin: auto;
+    box-shadow: 0px 2px 2px 2px rgba(0, 0, 0, 0.185);
+    border-radius: 0px 0px 10px 10px;
+}
+
+#corponoticia {
+    background-color: white;
+    padding: 10px;
+}
+
+#noticia {
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#corponoticia > h1 {
+    font-family: 'idroid';
+    font-weight: lighter;
+    color: #24582f;
+    font-size: 1.6em;
+}
+
+#corponoticia > h2 {
+    font-family: 'idroid';
+    font-weight: lighter;
+    color: #24582f;
+    padding-left: 5px;
+    background-image: linear-gradient(to right, #54c05b, #c4d8c6, #ffffff);
+}
+
+#corponoticia > p {
+    text-indent: 30px;
+}
+
+.displayed {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.linkbody {
+    text-decoration: none;
+    color: teal;
+    font-weight: bold;
+}
+
+.linkbody02 {
+    text-decoration: none;
+    color: teal;
+    font-weight: bold;
+}
+
+.linkbody02::after {
+    content: '🔗';
+    text-decoration: none;
+}
+
+/*Video*/
+
+#video {
+    background-color: hsl(114, 56%, 17%);
+    padding: 20px;
+}
+
+#boxvideo {
+    position: relative;
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+#boxvideo > iframe {
+    position: absolute;
+}
+
+/*Quer Aprender mais?*/
+
+#extra {
+    background-color: white;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 0px 0px 15px 15px;
+}
+
+#titulop > p {
+    color: white;
+    font-weight: bold;
+    margin: 0px;
+    background-color: #2e8656;
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+#boxextra {
+    background-color: #C5EBD5;
+    border-radius: 0px 0px 10px 10px;
+}
+
+#boxextra > p {
+    margin: 0;
+    padding: 10px;
+    text-indent: 30px;
+    text-align: justify;
+}
+
+#its > p {
+    text-indent: 30px;
+    text-align: justify;
+}
+
+/*Lista*/
+
+ul {
+    display: inline-block;
+}
+
+li {
+    padding-left: 5px;
+}
+
+li::before {
+    content: '✓';
+    padding-right: 10px;
+}
+
+.linktabela {
+    text-decoration: none;
+    color: black;
+}
+
+.linktabela:hover {
+    text-decoration: underline;
+}
+
+/* Rodapé */
+
+footer {
+    background-color: #184413;
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+    margin-top: 10px;
+}

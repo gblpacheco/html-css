@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: gray;
+            margin: 0px;
+        }
+
+        header{
+            height: 150px;
+            background-color: white;
+            padding: 5px;
+            margin: 10px;
+        }
+
+        nav {
+            height: 20px;
+            padding: 10px;
+            text-align: center;
+            background-color: rgb(49, 57, 65);
+            box-shadow: 2px 4px 5px 2px rgba(0, 0, 0, 0.63);
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+        }
+        
+        main {
+            background-color: white;
+            margin: 10px;
+            border-radius: 6px;
+        }
+        
+        footer {
+            height: 50px;
+            background-color: black;
+            color: white;
+            padding: 5px;
+            margin: 10px;
+            text-align: center;
+        }
+
+        #noticias {
+            text-align: justify;
+            padding: 5px;
+        }
+
+        article {
+            background-color: lightgray;
+            padding: 5px;
+            border-radius: 6px;
+        }
+
+        article > aside {
+            background-color: lightslategray;
+            border-radius: 6px;
+            padding: 0px;
+            text-align: right;
+        }
+
+        article > aside > p {
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Teste1</a>
+            <a href="#">Teste2</a>
+            <a href="#">Teste3</a>
+            <a href="#">Teste3</a>
+            <a href="#">Teste3</a>
+            <a href="#">Teste3</a>
+            <a href="#">Teste3</a>
+            <a href="#">Teste3</a>
+        </nav>
+    </header>
+    <main>
+        <section id="noticias">
+            <article>
+                <h2>Ttítulo da Notícia</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea placeat tempore, accusamus ducimus tempora dicta earum voluptas ipsam. Commodi ipsa veritatis libero beatae dignissimos id illo alias ad aperiam quia. Lorem ipsum dolor sit amet consectetur adipisicing elit. Error praesentium aperiam magni sapiente atque! Dolor illum autem vitae? Maxime aliquam, iure quae aspernatur atque cum temporibus dignissimos ipsa hic soluta.</p>
+                <aside>
+                    <p>Artigo escrito por Gabriel Pacheco</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvimento do exercício</p>
+    </footer>
+</body>
+</html>

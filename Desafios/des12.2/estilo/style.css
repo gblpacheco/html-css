@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+
+:root {
+    --fonte1: Arial, Helvetica, sans-serif;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: var(--fonte1);
+    font-size: 1.1em;
+    line-height: 1.5;
+}
+
+header {
+    background-image: url('../imagens/pexels-photo-248515.png');
+    background-position: center;
+    background-size: cover;
+    padding-top: 15vh;
+    padding-bottom: 20vh;
+    text-align: center;
+    color: #ddd;
+    width: 100%;
+    z-index: -1;
+}
+
+header > h1 {
+    padding-bottom: 25px;
+}
+
+header > p {
+    padding-bottom: 25px;
+    word-wrap: break-word;
+}
+
+header > a {
+    text-decoration: none;
+    display: inline-block;
+    background-color: #333;
+    padding: 1em 2em;
+    color: white;
+    border: 1px solid #666;
+}
+
+header > a:hover {
+    background-color: white;
+    color: black;
+}
+
+main {
+    background-color: white;
+}
+
+section.branco {
+    text-align: center;
+    padding-top: 20px;
+}
+
+section.content {
+    columns: 2;
+    column-gap: 2em;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+section.imagem

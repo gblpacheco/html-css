@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+
+    <style>
+        
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 500px;
+            border-collapse: collapse;
+        }
+
+        caption {
+            font-size: 1.2em;
+            padding: 10px;
+            font-weight: bold;
+            background-color: #333;
+            color: whitesmoke;
+        }
+
+        td, th {
+            padding: 10px;
+            border: 0.5px solid black;
+        }
+
+        tbody > tr:nth-child(even) {
+            background-color: rgb(212, 212, 212);
+        }
+
+        thead {
+            background-color: gray;
+            color: white;
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: gray;
+        }
+
+        tfoot {
+            background-color: #333;
+            color: white;
+        }
+
+        .num {
+            text-align: right;
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <table>
+        <caption>População das Unidades Federativas</caption>
+        <thead>
+            <tr>
+                <th>Estado</th>
+                <th>População</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">44.396.484</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">20.869.101</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">16.550.024</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="num">15.203.934</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="num">11.247.972</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td class="num">11.163.018</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">44.396.484</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">20.869.101</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">16.550.024</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="num">15.203.934</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="num">11.247.972</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td class="num">11.163.018</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">44.396.484</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">20.869.101</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">16.550.024</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="num">15.203.934</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="num">11.247.972</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td class="num">11.163.018</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">44.396.484</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">20.869.101</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">16.550.024</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="num">15.203.934</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="num">11.247.972</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td class="num">11.163.018</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">44.396.484</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">20.869.101</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">16.550.024</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="num">15.203.934</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="num">11.247.972</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td class="num">11.163.018</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">44.396.484</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">20.869.101</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">16.550.024</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="num">15.203.934</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="num">11.247.972</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td class="num">11.163.018</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>Total de Habitantes</th>
+                <td class="num">119.430.533</td>
+            </tr>
+        </tfoot>
+    </table>
+
+</body>
+</html>
