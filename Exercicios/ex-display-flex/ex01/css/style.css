@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.flex{
+    /* max-width: 300px; */
+    padding: 10px;
+    border: 2px solid black;
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    /* flex-flow: row nowrap; */
+    /* flex-flow: row wrap; */
+    justify-content: space-between;
+}
+
+.item{
+    background-color: aqua;
+    margin: 5px;
+    padding: 5px;
+}
