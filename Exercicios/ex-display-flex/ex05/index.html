@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos - Align-content</title>
+
+    <style>
+
+        .flex-container{
+            max-width: 300px;
+            display: flex;
+            /* flex-wrap: wrap; */
+            border: 2px solid black;
+        }
+
+        .items{
+            background-color: orangered;
+            text-align: center;
+            color: white;
+            margin: 5px;
+        }
+
+        .bauto{
+            flex-basis: auto;
+        }
+
+        .fg-1{
+            flex-grow: 1;
+        }
+
+    </style>
+
+</head>
+<body>
+    <p></p>
+    <div class="flex-container">
+        <div class="items bauto fg-1">A</div>
+        <div class="items bauto fg-1">BBB</div>
+        <div class="items bauto fg-1">C</div>
+        <div class="items bauto fg-1">DEF</div>
+    </div>
+
+</body>
+</html>
