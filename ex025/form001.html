@@ -12,12 +12,23 @@
     }
   </style>
 
+  <!-- GET uso geral (nomes, sobrenome, peso) -->
+   <!-- POST uso em casos sensíveis (Senhas, cartão de crédito, envio de fotos ou arquivos) -->
+
   <body>
     <h1>Formulário</h1>
-    <form action="">
-        <p>Nome: <input type="text" name="nome" id="nome"></p>
-        <p>sobrenome: <input type="text" name="sobrenome" id="sobrenome"></p>
-        <p><input type="submit" value="Enviar"></p>
+    <form action="cadastro.php" method="get" autocomplete="off">
+      <p>
+        <label for="inome">Nome:</label>
+        <input type="text" name="nome" id="inome" />
+      </p>
+      <p>
+        <label for="isobrenome">Sobrenome:</label>
+        <input type="text" name="sobrenome" id="isobrenome" />
+      </p>
+      <p>
+        <input type="submit" value="Enviar" />
+      </p>
     </form>
   </body>
 </html>
