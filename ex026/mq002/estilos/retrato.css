@@ -1,8 +1,8 @@
 @charset "UTF-8";
 
-* {
-    margin: 0;
-    padding: 0;
-}
-
 /* ORIENTAÇÃO EM PÉ */
+
+body {
+    background-image: url("../img/cev-portrait.jpg");
+    background-position: center bottom;
+}

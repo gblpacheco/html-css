@@ -1,8 +1,8 @@
 @charset "UTF-8";
 
-* {
-    margin: 0;
-    padding: 0;
-}
-
 /* ORIENTAÇÃO DEITADA */
+
+body {
+    background-image: url("../img/cev-landscape.jpg");
+    background-position: left bottom;
+}

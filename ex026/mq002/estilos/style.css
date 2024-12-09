@@ -1,8 +1,27 @@
 @charset "UTF-8";
 
+/* CONFIGURAÇÕES GERAIS */
+
 * {
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-/* CONFIGURAÇÕES GERAIS */
+html , body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #233efe;
+}
+
+body {
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+h1 {
+    color: white;
+    text-shadow: 2px 2px 0px #0d1761;
+    padding: 10px;
+    text-align: center;
+}
