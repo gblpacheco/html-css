@@ -1,0 +1,110 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Ms+Madi&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Passion+One:wght@400;700;900&family=Rubik+Iso&family=Sriracha&family=Staatliches&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 1em;
+    font-family: "Open Sans", serif;
+    box-sizing: border-box;
+}
+
+:root {
+    --color01: #555;
+    --color02: #111;
+    --color03: #fd8a24;
+    --color04: #333;
+    --color5: #fff;
+}
+
+html, body {
+    width: 100vw;
+    height: 100vh;
+}
+
+a {
+    text-decoration: none;
+    color: var(--color03);
+    font-weight: bold;
+}
+
+.top-bar {
+    background-color: var(--color01);
+    color: var(--color5);
+    font-size: 1.3em;
+    padding: 8px;
+    border-bottom: 5px solid #fd8a24;
+    text-align: center;
+}
+
+header {
+    width: 60%;
+    margin: auto;
+    border-bottom: 1px solid rgb(197, 197, 197);
+    padding: 8px;
+}
+
+header > h1 {
+    font-size: 2em;
+}
+
+header > p {
+    padding: 2px;
+}
+
+.padding-tb {
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.autor {
+    font-size: 0.8em;
+    color: var(--color02);
+    font-weight: bold;
+}
+
+.data {
+    font-size: 0.5em;
+}
+
+header > ul {
+    display: flex;
+}
+
+header > ul > li {
+    list-style: none;
+    padding-top: 25px;
+    margin-right: 20px;
+}
+
+main {
+    width: 50%;
+    margin: auto;
+    padding-top: 22px;
+}
+
+main > p {
+    text-align: justify;
+    padding-bottom: 15px;
+}
+
+main > img {
+    width: 100%;
+}
+
+.legenda-foto {
+    font-size: 0.6em;
+    padding-top: 12px;
+}
+
+main > h2 {
+    padding-bottom: 12px;
+    font-size: 1.2em;
+}
+
+footer {
+    background-color: var(--color04);
+    padding: 8px;
+    color: var(--color5);
+    text-align: center;
+}
